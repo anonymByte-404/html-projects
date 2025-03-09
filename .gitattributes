@@ -1,0 +1,6 @@
+# Specify text attributes for specific file types
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.png binary
+*.md text eol=lf
