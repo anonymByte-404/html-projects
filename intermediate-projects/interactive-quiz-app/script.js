@@ -61,5 +61,4 @@ function restartQuiz() {
   loadQuestion()
 }
 
-// Load the first question
 loadQuestion()

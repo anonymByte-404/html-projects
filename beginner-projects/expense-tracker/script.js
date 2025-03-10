@@ -56,5 +56,4 @@ function loadFromLocalStorage() {
   }
 }
 
-// Load saved data on page load
 window.onload = loadFromLocalStorage;
