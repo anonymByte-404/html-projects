@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  position: relative;
+  display: flex;
+  width: 80%;
+  height: 80%;
+}
+
+.left-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+  width: 50rem;
+  height: 100%;
+  font-size: 2rem;
+}
+
+.left-container h1 {
+  color: rgb(50, 109, 236);
+  margin-bottom: 10px;
+}
+
+.rigth-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rigth-container .form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 55%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px 0 rgb(131, 131, 131);
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.rigth-container .form hr {
+  width: 90%;
+  margin: 20px 0 20px 0;
+}
+
+.rigth-container .form input,
+button {
+  width: 92%;
+  height: 55px;
+  border-radius: 7px;
+  padding: 5px 20px;
+  border: 1px solid rgb(184, 181, 181);
+}
+
+.rigth-container .form input::placeholder {
+  color: rgb(153, 153, 153);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.rigth-container .form a {
+  text-decoration: none;
+  color: rgb(24, 92, 219);
+}
+
+.login {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(24, 92, 219);
+  margin-bottom: 14px;
+}
+
+.new-acc {
+  font-size: 1rem;
+  font-weight: 600;
+  width: 50%;
+  color: white;
+  background-color: rgb(87, 179, 26);
+}
