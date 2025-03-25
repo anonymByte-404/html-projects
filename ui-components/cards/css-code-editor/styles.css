@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #121212;
+}
+
+.code-editor {
+  max-width: 400px;
+  background-color: #1d1e22;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  padding: 10px;
+  transition: transform 0.2s ease;
+}
+
+.code-editor:hover {
+  transform: scale(1.02);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.title {
+  font-family: Lato, sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: #e0e0e0;
+}
+
+.icon {
+  width: 20px;
+  transition: background-color 0.2s ease;
+}
+
+.icon:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #6e7281;
+}
+
+.editor-content {
+  margin: 10px 0;
+  color: #ffffff;
+}
+
+.property {
+  margin-left: 20px;
+}
+
+.property:hover {
+  cursor: text;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.editor-content .color-0 {
+  color: rgb(86, 156, 214);
+}
+
+.editor-content .color-1 {
+  color: rgb(182, 206, 168);
+}
+
+.editor-content .color-2 {
+  color: rgb(156, 220, 254);
+}
+
+.editor-content .color-3 {
+  color: rgb(207, 146, 120);
+}
+
+.color-preview-1,
+.color-preview-2 {
+  height: 8px;
+  width: 8px;
+  border: 1px solid #fff;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.color-preview-1 {
+  background-color: #1d1e22;
+}
+
+.color-preview-2 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
